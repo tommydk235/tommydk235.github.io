@@ -1,0 +1,73 @@
+a{
+	color: #BCF22D;
+}
+li{
+	color:lightblue;
+}
+
+form{
+    margin: auto;
+	background-color: #8b0000;
+    border: 2px solid blue;
+    padding: 10px;
+    width: 500px;
+
+}
+
+label{
+	font-family: arial;
+	color: #DFE7E6 ;
+}
+input{
+	color: black;
+}
+img{
+	width: 180px ;
+	height: 180px;
+	
+}
+#imagen{
+	text-align: center;
+}
+
+p{
+	text-align: justify;
+}
+
+body{
+	background-color: #474b4e ;
+}
+
+.clase1{
+	color: #A9FFF6 ;
+	font-family: calibri;
+}
+
+.clase2{
+	color:#F83D18;
+	font-family: arial;
+}
+.fecha{
+	color: black;
+	font-family: verdana;
+}
+[name]{
+color: black;
+font-family: calibri;
+}
+
+#tabla1 {
+	width: 100%;
+	background-color: #252850;
+}
+
+table,th,td {
+border : 2.5px solid #FC5312;
+
+border-collapse: collapse;
+ }
+ th,td{
+ 	color: white;
+ 	padding: 10px;
+ 	font-family: arial;
+ }
