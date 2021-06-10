@@ -1,10 +1,33 @@
-a{
-	color: #BCF22D;
+header{
+	background-color: #252850;
+}
+footer{
+	background-color: lightblue;
+	text-align: center;
+	margin-top: 120px;
+}
+ul{
+	margin: 0;
+	padding: 0;
 }
 li{
-	color:lightblue;
+	display: inline-block; 
+	list-style: none;
 }
 
+a{
+	text-decoration: none;
+	display: block;
+	padding: 15px 140.7px;
+	font-family: arial;
+	color: white;
+
+
+
+}
+a:hover{
+	background-color: darkblue;
+}
 form{
     margin: auto;
 	background-color: #8b0000;
@@ -43,10 +66,6 @@ body{
 	font-family: calibri;
 }
 
-.clase2{
-	color:#F83D18;
-	font-family: arial;
-}
 .fecha{
 	color: black;
 	font-family: verdana;
@@ -56,18 +75,30 @@ color: black;
 font-family: calibri;
 }
 
-#tabla1 {
-	width: 100%;
+
+
+
+/*TABLAS*/
+
+table {
+	margin: auto;
+	width: 95%;
 	background-color: #252850;
 }
 
 table,th,td {
+
 border : 2.5px solid #FC5312;
 
 border-collapse: collapse;
+
  }
+
  th,td{
+
  	color: white;
  	padding: 10px;
  	font-family: arial;
+
  }
+
