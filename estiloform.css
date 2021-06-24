@@ -1,0 +1,61 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	background-color: grey;
+	font-family: arial;
+}
+.enlace{
+margin-top:-30px;
+float: right;
+background-color: #B0E0E6;
+width: 200px;
+padding: 10px;
+text-align: center;
+margin-right: 40px;
+
+}
+a{
+	
+	position: relative;
+	text-decoration: none;
+
+}
+h1{
+	margin-left: 300px;
+	text-align: center;
+	margin-top: 40px;
+	text-shadow: 5px 5px 5px #ACF9D8;
+}
+
+form{
+	
+	width: 40%;
+	margin-left: 350px;
+	margin-top: 30px;
+margin-bottom: 100px;
+
+}
+.divm{
+	background-color: #B0E0E6;
+	padding: 20px;
+	border: solid 4px #2850CB ;
+}
+
+
+#nombre, #apellido, #correo, #contraseña{
+	width: 300px;
+}
+.boton1{
+	width: 100px ;
+	height: 50px;
+	margin-left: 50px;
+	
+}
+
+.boton2{
+	width: 100px ;
+	height: 50px;
+	margin-left: 100px;
+}

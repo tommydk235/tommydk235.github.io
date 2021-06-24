@@ -1,3 +1,8 @@
+
+body{
+	margin:0;
+	padding:0;
+}
 header{
 	background-color: #252850;
 }
@@ -18,10 +23,9 @@ li{
 a{
 	text-decoration: none;
 	display: block;
-	padding: 15px 140.7px;
+	padding: 15px 143px;
 	font-family: arial;
 	color: white;
-
 
 
 }
@@ -53,18 +57,24 @@ img{
 	text-align: center;
 }
 
-p{
+
+.clase1{
 	text-align: justify;
+	width: 60%;
+	margin: auto;
+	color: #A9FFF6 ;
+	font-family: calibri;
+
+}
+
+h1.clase1{
+	color: orange;
 }
 
 body{
 	background-color: #474b4e ;
 }
 
-.clase1{
-	color: #A9FFF6 ;
-	font-family: calibri;
-}
 
 .fecha{
 	color: black;
@@ -80,11 +90,7 @@ font-family: calibri;
 
 /*TABLAS*/
 
-table {
-	margin: auto;
-	width: 95%;
-	background-color: #252850;
-}
+
 
 table,th,td {
 
@@ -93,6 +99,11 @@ border : 2.5px solid #FC5312;
 border-collapse: collapse;
 
  }
+ table {
+	margin: auto;
+	width: 95%;
+	background-color: #252850;
+}
 
  th,td{
 
@@ -100,5 +111,47 @@ border-collapse: collapse;
  	padding: 10px;
  	font-family: arial;
 
- }
+  }
+  p{
+  	text-align: center;
+  	
+  }
 
+.btn_neon{
+	position: relative;
+	padding: 15px 30px;
+	color: blue;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-decoration: none;
+	font-size: 24px;
+	overflow: scroll;
+	transition: 0.2s;
+}
+
+.btn_neon:hover{
+color: red;
+background-color: lightblue;
+box-shadow: 0 0 10px black , 0 0 100px green, 0 0 80px white;
+transition-delay: 1s;
+
+}
+
+.btn_neon span{
+
+position: absolute;
+}
+
+.btn_neon span:nth-child(1){
+	top: 0;
+	left: -100%;
+	width: 100px;
+	height: 2px;
+	background: linear-gradient(90deg,transparent,red);
+}
+
+.btn_neon:hover span:nth-child(1){
+
+	left: 100%;
+	transition: 1s;
+}
