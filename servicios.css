@@ -34,6 +34,11 @@ nav{
     
 }
 
+.buscar{
+    text-align: center;
+    margin-top: 20px;
+}
+
 .btn{
 
 	position: relative;
@@ -116,9 +121,7 @@ nav{
     padding: 20px;
 
 }
-.d1,.d2,.d3,.d4,.d5,.d6{
-    
-}
+
 .d2,.d4,.d6{
     text-align: right;
     margin-top: -355px;
@@ -127,13 +130,9 @@ nav{
 
 
 h1{
-    color: black;
-    text-shadow: 5px 5px 5px lightgreen;
+    color: white;
+    text-shadow: 3px 3px 3px lightgreen;
     margin-left: 140px;
     margin-right: 140px;
 }
 
-.buscar{
-    text-align: center;
-    margin-top: 20px;
-}
